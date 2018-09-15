@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Parameter>
+  <Database>
+    <!-- ServerIP:資料庫伺服器位置(IP)  -->
+    <ServerIP value="10.137.128.82" />
+    <!-- ServerPort:資料庫伺服器連接阜(Port)  -->
+    <ServerPort value="5432" />
+    <!-- UserID:DB連線之使用者名稱  -->
+    <UserID value="postgres" />
+    <!-- Password:DB連線之密碼  -->
+    <Password value="even" />
+    <!-- DBName:資料庫名稱  -->
+    <DBName value="robot_file" />
+  </Database>  
+  <FilePath>
+    <!-- TableSchema:存放要寫入的資料表結構檔案之路徑  -->
+    <TableSchema value="D:\Common_App\All_App\DataGenerator\bin\Debug\TableSchema"></TableSchema>
+    <!-- Log:存放Log路徑(Log功能未開發)  -->
+    <Log value="D:\Common_App\All_App\DataGenerator\bin\Debug\recordLog"></Log>
+  </FilePath>
+</Parameter>
+

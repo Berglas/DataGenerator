@@ -1,0 +1,8 @@
+NowEQStatus
+5000
+2018-07-25 00:00:00
+TimeStamp-->>NowDate
+ipaddress-->>FixedString::192.168.1.140
+node_no-->>IntRangeCount::1,1~4
+Function-->>FixedString::ES03
+Content-->>StringSelect::{"Content":[{"ItemName":"Equipment Status","Value":"Run"},{"ItemName":"Unit Status 1","Value":"Down"},{"ItemName":"Unit Status 2","Value":"Down"},{"ItemName":"Unit Status 3","Value":"Down"},{"ItemName":"Unit Status 4","Value":"Down"},{"ItemName":"Unit Status 5","Value":"Down"},{"ItemName":"Unit Status 6","Value":"Down"},{"ItemName":"Unit Status 7","Value":"Down"},{"ItemName":"Unit Status 8","Value":"Down"}]}^^{"Content":[{"ItemName":"Equipment Status","Value":"Down"},{"ItemName":"Unit Status 1","Value":"Down"},{"ItemName":"Unit Status 2","Value":"Down"},{"ItemName":"Unit Status 3","Value":"Down"},{"ItemName":"Unit Status 4","Value":"Down"},{"ItemName":"Unit Status 5","Value":"Down"},{"ItemName":"Unit Status 6","Value":"Down"},{"ItemName":"Unit Status 7","Value":"Down"},{"ItemName":"Unit Status 8","Value":"Down"}]}^^{"Content":[{"ItemName":"Equipment Status","Value":"Idle"},{"ItemName":"Unit Status 1","Value":"Down"},{"ItemName":"Unit Status 2","Value":"Down"},{"ItemName":"Unit Status 3","Value":"Down"},{"ItemName":"Unit Status 4","Value":"Down"},{"ItemName":"Unit Status 5","Value":"Down"},{"ItemName":"Unit Status 6","Value":"Down"},{"ItemName":"Unit Status 7","Value":"Down"},{"ItemName":"Unit Status 8","Value":"Down"}]}
